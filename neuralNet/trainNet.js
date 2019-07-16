@@ -14,7 +14,7 @@ const fs = require('fs')
 const preparedTrainingData = trainingData.map(set => {
     return {
         input: set.slice(0, 9),
-        output: set.slice(9)
+        output: set.slice(9,18)
     }
 })
 
